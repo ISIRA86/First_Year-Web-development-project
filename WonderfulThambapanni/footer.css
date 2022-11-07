@@ -1,0 +1,99 @@
+   
+/* styles for the footer */
+
+/* adding styles to the footer container div*/
+.footer-container{
+    background-color: rgb(62, 119, 38);
+    padding:2rem 0 1rem 0;
+}
+
+/* adding styles to footer div section  */
+.footer{
+    width: 80%;
+    height: 25vh;
+    background-color: rgb(62, 119, 38);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* adding styles to the footer heading */
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+
+}
+
+.footer-heading h2{
+    margin-bottom: 2rem;
+}
+
+
+/*  adding styles to footers links*/
+.footer-heading a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+
+}
+
+/* adding hover effect to the links*/
+.footer-heading a:hover, a:active {
+    color: red;
+    transition: 0.3s ease-out;
+    font-size: 160%;
+}
+
+.footer-email-form h2{
+    margin-bottom: 2rem;
+
+}
+
+/* adding styles to footer  */
+#footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* adding a placeholder to the footer */
+#footer-email::placeholder{
+    color: rgb(151, 150, 150);
+}
+
+/* adding styles to the email buttons */
+#footer-email-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(69, 160, 98);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+/* adding hovering effect to the buttons */
+#footer-email-btn:hover{
+    cursor: pointer;
+    background-color: rgb(15, 70, 153);
+    transition: all 0.4s ease-out;
+}
+
+/* adding styles to the image icons */
+.footer img{
+    display: inline;
+    width: 15%;
+    height: auto;
+    padding: 0 0 0 10px;
+    margin:50px 0 0 20px;
+}

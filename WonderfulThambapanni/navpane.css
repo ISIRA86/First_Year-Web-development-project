@@ -1,0 +1,55 @@
+/* the navigation pane */
+.headpane{
+    display:inline-block;
+    position:sticky;
+    top:0;
+    background-color:#11998e;
+    z-index:1;
+  }
+  /* setting the size in the navigation pane*/
+  div.headpane{
+    width:100%;
+    height:150px;
+  }
+  
+  /* setting the css for the title in the navigation Pane*/
+  p.titlepane{
+    font-size:50px;
+    margin-top:30px;
+    margin-bottom:8px;
+    font-weight:bolder;
+  }
+  img.titlepane{
+    float:left;
+  }
+  
+  /* adding styles to the beautiful little island */
+  #paratitlepane{
+    font-size:25px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:10px;
+    font-weight:bold;
+  }
+  
+  /* the styles for the navigation pane*/
+  #navipane li{
+      list-style-type:none;
+      color: white;
+      display:inline-block;
+      font-size: 34px;
+      background-color: #505050;
+      padding-left:19px;
+      padding-right:19px;
+      margin-right:-4px;
+  }
+  /*adding hovering to the navigation pane*/  
+  #navipane li:hover{
+      background-color: #11998e;
+  }
+  
+  #navipane li a{
+      color: white;
+      text-decoration: none;
+  }
+  
